@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        body {font: 12pt Arial}
+        button { font-size:12pt; padding: 30px; }
+    </style>
+</head>
+<body>
+    <h1> soma</h1>
+    <button onclick="somar()"> clique em min</button>
+    <section id="res">
+        <p>o resultado vem aq</p>
+
+</section>
+    <script>
+        
+            window.alert("seja bem vindo")
+            function somar(){
+            let n1 = Number(window.prompt('digite um numero'))
+            let n2 = Number(window.prompt('digite um numero'))
+            soma= n1 + n2
+            let resultado = document.querySelector('section#res')
+            res.innerHTML = `<p> a soma de ${n1} + ${n2} é ${n1+n2} &#x1F555;`
+        }
+            </script>
+            </body>
+            </html>
+

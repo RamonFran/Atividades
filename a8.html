@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        body {font: 12pt Arial}
+        button { font-size:12pt; padding: 30px; }
+    </style>
+</head>
+<body>
+    <h1> </h1>
+    <button onclick="calcular()"> clique em min</button>
+    <section id="situacao">
+        <p>o resultado vem aq</p>
+
+</section>
+    <script>
+        
+            window.alert("seja bem vindo")
+            function calcular(){
+            let n1 = Number(window.prompt('digite um numero'))
+            let res= document.querySelector('section#result')
+            res.innerHTML += ` <p>cbbfbf${Math.abs(n1)}</p><hr>`
+            res.innerHTML += `${Math.sqrt(n1)}`
+            res.innerHTML += `${Math.cbrt(n1)}`
+            res.innerHTML += `${Math.pow(n1, 2)}`
+            res.innerHTML += `${Math.pow(n1, 3)}`
+
+           
+
+        }
+            </script>
+            </body>
+            </html>
